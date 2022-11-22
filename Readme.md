@@ -4,7 +4,7 @@
 
 Гитигнор, кстати, можно брать отсюда для новых проектов.
 
-git remote add origin git@github.com:utavegu/pdferD.git
+git remote add origin git@github.com:utavegu/pdfer.git
 
 docker rm pdfer-container (если останавливать через docker-compose down, то не понадобится)
 docker rmi pdfer-wtf:latest
