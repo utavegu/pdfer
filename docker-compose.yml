@@ -1,0 +1,11 @@
+services:
+  wtf:
+    container_name: pdfer-container
+    build: .
+    ports:
+      - 8000:8000
+    environment:
+      - PORT=8000
+    volumes:
+    # А вот это вторая составляющая разработки без перезапуска контейнера. Надо ее оставлять в композ-дев. В продакшн-композ это тащить не надо
+      - ./src:/app/src
